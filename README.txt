@@ -1,16 +1,16 @@
 USAGE
 
 System Requirements:
-1. Python 2.7
+1. Python 3
 !!! Install Dependencies FIRST
 2. Install NLTK http://www.nltk.org/install.html
 3. Insall NLTK libraries:
 	launch python
 	import nltk
 	nltk.download('punkt')
-4. Install newspaper “pip install newspaper==0.0.8”
-nltk.download('averaged_perceptron_tagger')
-4. Install Watson Developer Cloud "pip install --upgrade watson_developer_cloud"
+	nltk.download('averaged_perceptron_tagger')
+4. Install newspaper “pip3 install newspaper3k”
+4. Install Watson Developer Cloud "pip3 install --upgrade watson_developer_cloud"
 
 Dependencies "sudo pipenv install xxx"
 1. requests
@@ -24,7 +24,8 @@ Sub-Dependencies:
 pip
 pipenv
 
-python2 compile.py
+python3 compile.py -> currently generates four csv files to load
+
 
 #Reference Filter:
 #python reference-filt.py <article title> <MMddYYYY>
